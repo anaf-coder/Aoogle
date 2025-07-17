@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="//www.gstatic.com/images/branding/searchlogo/ico/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./static/style/main.css">
+    <title>Aoogle</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href=""> Amail </a>
+                </li>
+                <li>
+                    <a href=""> Images </a>
+                </li>
+                <li class="big2">
+                    <a href=""> 🍷 </a>
+                </li>
+                <li class="big">
+                    <a href=""> ⁙ </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="https://lh3.googleusercontent.com/ogw/AF2bZygab1twyMv-SVP8_l8k34teDFnqBnqDEg-oit_1S3XVQB4=s32-c-mo" srcset="https://lh3.googleusercontent.com/ogw/AF2bZygab1twyMv-SVP8_l8k34teDFnqBnqDEg-oit_1S3XVQB4=s32-c-mo 1x, https://lh3.googleusercontent.com/ogw/AF2bZygab1twyMv-SVP8_l8k34teDFnqBnqDEg-oit_1S3XVQB4=s64-c-mo 2x " alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="container">
+            <div class="text">
+                <h1><span class="blue">A</span><span class="red">o</span><span class="yellow">o</span><span class="blue">g</span><span class="green">l<span class="red">e</span></h1>
+            </div>
+            <div class="input">
+                <input type="text" name="" id="input">
+            </div>
+            <div class="btns">
+                <a href="" class="btn">Aoogle Search</a>
+                <a href="" class="btn">I'm Feeling Gay</a>
+            </div>
+            <div class="offer">
+                <p>Aoogle offered in: <a href="">አማርኛ</a> <a href="">ትግርኛ</a> <a href="">Soomaali</a> <a href="">Oromoo</a></p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="country"><small>Ethiopia</small></div> <hr>
+            <div class="more">
+                <div class="more1">
+                    <small>አህያ</small>
+                    <small>ፈረስ</small>
+                    <small>ግመል</small>
+                    <small>እንዴት እንጋጥ</small>
+                </div>
+                <div class="more2">
+                    <small>አረጋገጥ</small>
+                    <small>አተራረስ</small>
+                    <small>አፈሳስ</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    const inp = document.querySelector("#input");
+
+    inp.addEventListener("keydown", (event) => {
+        if (event.key == "Enter") {
+          var audio = new Audio('./static/sound/voiceX.mp3');
+          audio.play();  
+        };
+    })
+</script>
+</html>
